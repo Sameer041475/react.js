@@ -1,18 +1,90 @@
-# React + Vite
+# React Login and Logout Button
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+This is a simple React.js application that demonstrates the functionality of Login and Logout buttons using React State (`useState`).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+When the user clicks the Login button, the application displays a welcome message and a Logout button. When the user clicks Logout, the application returns to the initial login screen.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Login button functionality.
+- Logout button functionality.
+- Conditional rendering using React.
+- State management using `useState`.
+- Interactive and user-friendly interface.
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ How It Works
+
+1. Initially, the Login button is displayed.
+2. When the user clicks Login, the login state changes.
+3. A welcome message and Logout button are displayed.
+4. When the user clicks Logout, the login state changes back to false.
+5. The Login button appears again.
+
+## 📂 Project Structure
+
+```text
+login-logout/
+│
+├── public/
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
+
+## 💻 Installation and Setup
+
+**Step 1: Clone the repository**
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+**Step 2: Navigate to the project folder**
+
+```bash
+cd login-logout
+```
+
+**Step 3: Install dependencies**
+
+```bash
+npm install
+```
+
+**Step 4: Start the application**
+
+```bash
+npm start
+```
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- How to use React `useState` Hook.
+- How to handle button click events.
+- How conditional rendering works in React.
+- How to dynamically update UI based on state.
+
+## 👨‍💻 Author
+
+**Sameer Kampa**
+
+GitHub: [Sameer041475](https://github.com/Sameer041475)
+
+---
+
+⭐ If you like this project, consider giving it a star!
