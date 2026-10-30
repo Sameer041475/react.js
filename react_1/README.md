@@ -36,9 +36,9 @@ login-logout/
 │
 ├── public/
 ├── src/
-│   ├── App.js
+│   ├── App.jsx
 │   ├── App.css
-│   └── index.js
+│   └── index.jsx
 │
 ├── package.json
 └── README.md
