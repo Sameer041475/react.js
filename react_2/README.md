@@ -1,18 +1,104 @@
-# React + Vite
+# React 2 – Video Player with Search & Delete Comments
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js project built to practice React fundamentals, state management, event handling, and dynamic UI updates.
 
-Currently, two official plugins are available:
+## 🎬 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application displays a Big Buck Bunny video player along with a comments section. Users can search comments by username and delete individual comments dynamically.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### 1. Video Player
+- Display Big Buck Bunny video.
+- Video playback controls.
+- Display video title and view statistics.
 
-Note: This will impact Vite dev & build performances.
+### 2. Search Comments
+- Search comments using usernames.
+- Real-time filtering as the user types.
+- Case-insensitive search.
+- Display only matching comments.
 
-## Expanding the ESLint configuration
+### 3. Delete Comments
+- Delete individual comments.
+- Update the comments list dynamically.
+- Automatically refresh the UI after deletion.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+## 🧠 React Concepts Learned
+
+- Functional Components
+- Component Reusability
+- Props and Data Passing
+- `useState` Hook
+- Event Handling (`onChange`)
+- Array Methods (`map()` and `filter()`)
+- Conditional UI Updates
+- Unique Keys in React Lists
+- Parent-to-Child Communication
+
+## 📂 Project Structure
+
+```text
+react_2/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── index.jsx
+│   │   └── index.css
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## 🚀 How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sameer041475/react.js.git
+```
+
+Navigate to the project:
+
+```bash
+cd react.js/react_2
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🎯 Learning Objective
+
+The main objective of this project was to understand how React manages application state, handles user interactions, passes data between components, and updates the UI dynamically.
+
+## 👨‍💻 Author
+
+**Sameer Kampa**
+
+GitHub: [Sameer041475](https://github.com/Sameer041475)
+
+*Learning React.js by building practical projects and improving frontend development skills.*
